@@ -65,7 +65,7 @@ public class MyArrayList<T> implements List<T> {
     // >> TODO 实现 Iterable 接口里定义的iterator接口
     @Override
     public Iterator<T> iterator() {
-        return new Iterator<>() {
+        return new Iterator<T>() {
 
             int pointer = 0;
 
